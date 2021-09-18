@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Contact Page</title>
+</head>
+<body class="container-fluid">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-success">
+        <a class="navbar-brand" href="index.html">Michael's Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropDown" aria-controle="navbarNavDropdown"
+         aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropDown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class ="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class ="nav-link dropdown-toggler" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" 
+                    aria-haspopup="true" aria-expanded="false" href="#">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">This Is</a>
+                        <a class="dropdown-item" href="#">A Dropdown</a>
+                        <a class="dropdown-item" href="#">It Does</a>
+                        <a class="dropdown-item" href="#">Magical Things</a>
+                    </div> 
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="padding row">
+            <div class="col-md-5">
+                <img class="rounded img-fluid" src="css-is-awesome.jpg" width="800">
+            </div>
+            <div class="col-md-7">
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label input-md">Provide email address:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input type="email" class="form-control" placeholder="Email Address">
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col padding">
+                            <p>Why do you want to give me this money?</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <textarea class="form-control" rows="4" placeholder="Because you deserve it, Michael."></textarea>
+                        </div>
+                    </div>
+                    <label class="form-label input-md padding">Please enter the dollar amount of money you will donate to me.</label>
+                    <div class="form-group row col-xs-2">
+                        <div class="col-md-3">
+                            <input type="text" class="form-control" placeholder="$50000">
+                        </div>
+                        <div class="col-md-9 form-text grey-bg">
+                            <span>Ensure that you use the $ sign.</span>
+                        </div>
+                        <div class="col">
+                            <br>
+                            <button class="btn btn-primary" type="submit">Send Money</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">*This is a joke, please do not enter anything*</div>
+                    </div>
+
+                    
+                </form>
+            </div>
+            
+        </div>
+
+    </main>
+</body>
+</html>

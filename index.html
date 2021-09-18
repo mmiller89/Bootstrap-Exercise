@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Example Page</title>
+</head>
+<body class="container">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-success">
+        <a class="navbar-brand" href="index.html">Michael's Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropDown" aria-controle="navbarNavDropdown"
+         aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropDown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class ="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class ="nav-link dropdown-toggler" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" 
+                    aria-haspopup="true" aria-expanded="false" href="#">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">This Is</a>
+                        <a class="dropdown-item" href="#">A Dropdown</a>
+                        <a class="dropdown-item" href="#">It Does</a>
+                        <a class="dropdown-item" href="#">Magical Things</a>
+                    </div> 
+                </li>
+            </ul>
+        </div>
+    </nav>
+   
+    <main class="container-fluid">
+        <div class="row padding">
+            <div class="col-md-8">
+                <table class="table table-dark table-hover">
+                    <thead class="thead-dark">
+                        <td><h5>Student Name</h5></td>
+                        <td><h5>Grade</h5></td>
+                        <td><h5>Teacher's Notes</h5></td>
+                    </thead>
+                    <tr>
+                        <td>John Bob</td>
+                        <td>80% - B</td>
+                        <td>Average</td>
+                    </tr>
+                    <tr>
+                        <td>Michael Miller</td>
+                        <td>81% - B</td>
+                        <td>Better than John</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Why a Table?</h5>
+                        <p class="card-text">Tables are useful for when you have grown past the bachelor stage of your life, and no longer
+                            need to eat from your kitchen or on top of your keyboard. Unfortunately, the developer has never reached this
+                            stage.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            <div class="row padding justify-content-between">
+                <div class="col-md-4">
+                    <h5 class="display-5">Hello</h5>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="display-3">it's me</h3>
+                </div>
+            </div>
+            <div class="row padding justify-content-between">
+                <div class="col-md-3"><h5 class="display-5">I just wanted you to know</h5></div>
+                <div class="col-md-3"><h4 class="display-4">that this is a website.</h4></div>
+            </div>
+        
+      
+
+    </main>
+   
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
